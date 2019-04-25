@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gist Tests</title>
+</head>
+<body>
+    <article>
+        <h3>2019-04-25</h3>
+        <p>
+            Ok, so here I am now learning about GitHub "Gists". From what I gather, Gists can be used to share files or parts of files. It looks like the two most relevant methods for sharing are through embedding and simply posting links.
+        </p>
+        <p>
+            Of course, we shall make a self-referential gist, because why not :P
+        </p>
+        <p>
+            Hmm, well it's a bit strange because it's a "script" tag that we are given. So I puppose we start by trying to see what this even looks like and then see ,what happens. On that note, I need to get a docker container to spin a quick web server. I wonder if Nginx might suffice?
+            </br>
+            And indeed, it does. Thank you, <span title="docker run --name quick-serve -p 8080:80 -v ${PWD}:/usr/share/nginx/html:ro -d nginx" style="font-weight: bold">El Capitan</span>!
+        </p>
+        <p>
+            Our gist should be placed below.
+            <div>
+                <script src="https://gist.github.com/artystable/6477288de26ac83aec1c16a6d0a73896.js"></script>
+            </div>
+        </p>
+        <p>
+            Ahh! And indeed it does! Yay! Another small victory.
+        </p>
+        <p>
+            The one thing I am not particularly fond of is how it looks like I have to basically create these separate files to reference files. But, on the other hand, it is nice how we do get this functionality for free, basically. That's nice.
+        </p>
+        <p>
+            It looks like all gists can be found at "https://gist.github.com/your-github-username". Or in my case, <a href="https://gist.github.com/artystable">here</a>
+            </br>
+            srcs:
+            </br>
+            <a href="https://help.github.com/en/articles/about-gists">About Gists</a>
+        </p>
+    </article>
+</body>
+</html>
