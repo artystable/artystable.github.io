@@ -27,7 +27,7 @@
             Next, the info page instructs that I instantiate a "ClipboardJS" object with an input class for some element I will associate to this functionality. This, I do via a short "script" tag below the previously referenced one at the bottom of this HTML doc. Then I proceed to copy the code from first example in the info page, which is observed next:
         </p>
         <!-- Target -->
-        <input id="foo" value="https://github.com/zenorocha/clipboard.js.git">
+        <input id="foo" value="https://artystable.github.io/text-copy-snippet.html">
 
         <!-- Trigger -->
         <button class="btn" data-clipboard-target="#foo">
@@ -38,6 +38,12 @@
         </p>
         <p>
             Well, with all of this done, I would hope everything should work as expected. But of course.. I know by now. So we shall see.
+        </p>
+        <p>
+            Well that was actually easy. Indeed, after adding the little script to add styles to the giant button icon, everything worked just nicely. I also modified the link so now when the button is clicked, the text copied is the link to this very page. The style code is as follows:
+            <div>
+                <pre>.clippy { margin-top: -3px; position: relative; top: 3px; width: 13px; border: 0; }</pre>
+            </div>
         </p>
     </article>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
