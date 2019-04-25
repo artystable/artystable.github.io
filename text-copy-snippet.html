@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Text Copy Snippet Practice</title>
+</head>
+<body>
+    <article>
+        <p>
+            In this article I cover a brief test of the clipboard.js library, found <a href="https://clipboardjs.com/">here</a>.
+        </p>
+        <p>
+            For simplicity's sake, I will use one of the CDNs found here <a href="https://github.com/zenorocha/clipboard.js/wiki/CDN-Providers"></a> as per the instructions in the clipboard.js info page. I am placing the script at the bottom of the body closing tag as I recall that was the appropriate method for js scripts (at least some years ago).
+        </p>
+        <p>
+            Next, the info page instructs that I instantiate a "ClipboardJS" object with an input class for some element I will associate to this functionality. This, I do via a short "script" tag below the previously referenced one at the bottom of this HTML doc. Then I proceed to copy the code from first example in the info page, which is observed next:
+        </p>
+        <!-- Target -->
+        <input id="foo" value="https://github.com/zenorocha/clipboard.js.git">
+
+        <!-- Trigger -->
+        <button class="btn" data-clipboard-target="#foo">
+        <img src="https://clipboardjs.com/assets/images/clippy.svg" alt="Copy to clipboard">
+        </button>
+        <p>
+            Hmm, it looks like I have to change the image file (perhaps I will use fontawesome substitute). Ahh, nevermind, too much work to get all the setup. I will merely modify the src field to point directly to where the .svg file is hosted in the info page's site (for now).
+        </p>
+        <p>
+            Well, with all of this done, I would hope everything should work as expected. But of course.. I know by now. So we shall see.
+        </p>
+    </article>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
+<script style="">
+    new ClipboardJS('.btn');
+</script>
+</body>
+</html>
