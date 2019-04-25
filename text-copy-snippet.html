@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script>
+        .clippy {
+            margin-top: -3px;
+            position: relative;
+            top: 3px;
+            width: 13px;
+            border: 0;
+        }
+    </script>
     <title>Text Copy Snippet Practice</title>
 </head>
 <body>
@@ -22,7 +31,7 @@
 
         <!-- Trigger -->
         <button class="btn" data-clipboard-target="#foo">
-        <img src="https://clipboardjs.com/assets/images/clippy.svg" width="13" alt="Copy to clipboard">
+        <img class="clippy" src="https://clipboardjs.com/assets/images/clippy.svg" width="13" alt="Copy to clipboard">
         </button>
         <p>
             Hmm, it looks like I have to change the image file (perhaps I will use fontawesome substitute). Ahh, nevermind, too much work to get all the setup. I will merely modify the src field to point directly to where the .svg file is hosted in the info page's site (for now).
