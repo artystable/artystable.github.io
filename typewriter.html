@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<style>
+
+/*
+** info:
+** Place div contents inline.
+** 
+** srcs:
+** https://www.w3schools.com/css/css_inline-block.asp
+*/
+.post_meta_data {
+    display: inline-block;
+}
+
+/*
+** info:
+** Set image to thumbnail size.
+** Make thumbnail image cute and round.
+** 
+** srcs:
+** N/A
+*/
+.author_pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.blog-post-subtitle {
+    color:grey;
+}
+
+/*
+** Typewriter styles follow:
+** src: https://www.youtube.com/watch?v=CkOab-pT2Gk
+** ...: https://www.sassmeister.com/ (online sass compiler)
+*/
+
+.typewriter-container {
+  background: #000;
+  height: 100px;
+}
+body .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+body .wrapper p {
+  color: #00ff41;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+body .wrapper .line {
+  position: relative;
+  border-right: 4px solid #00ff40;
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+body .wrapper .typing {
+  animation: typewriter 3s steps(25) 1s 1 normal both, blinkCursor 0.6s steps(12) infinite normal;
+}
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 200px;
+  }
+}
+@keyframes blinkCursor {
+  from {
+    border-right-color: rgba(0, 255, 64, 0.5);
+  }
+  to {
+    border-right-color: #00ff40;
+  }
+}
+
+body .wrapper .line_2 {
+  position: relative;
+  border-right: 4px solid #00ff40;
+  width: 260px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+body .wrapper .typing_2 {
+  animation: typewriter_2 3s steps(25) 1s 1 normal both, blinkCursor 0.6s steps(12) infinite normal;
+}
+@keyframes typewriter_2 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 260px;
+  }
+}
+
+body .wrapper .line_t {
+  position: relative;
+  border-right: 4px solid #00ff40;
+  width: 50px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+
+</style>
+    <title>Typewriter effect using SASS | HTML & SASS</title>
+</head>
+<body>
+
+<div class="container">
+
+        <div class="row">
+    
+            <div class="col-sm-8 blog-main">
+    
+                <div class="blog-post">
+                    <h2 class="blog-post-title">CSS ad-hoc practice.</h2>
+
+                    <h4 class="blog-post-subtitle">I found this online just now and thought I'd be fun to try.</h4>
+
+                    <p class="blog-post-meta">
+                        <img class="author_pic" src="/snoovatar.png" alt="Arty">
+                        <span title="January 1, 2014">2019-04-29</span> - <a href="#">Arty Stable</a>
+                    </p>
+
+                    <hr>
+
+                    <article>
+                        <p>
+                            I just randomly found this video on YouTube and I thought I'd give it a go since it reminded me of the computer screen Neo uses that you see on <a href="https://www.youtube.com/watch?v=6IDT3MpSCKI">the first scene</a> where he apepars in The Matrix.
+                        </p>
+
+                        <p>
+                            In the end, of course, I decided to make it look a bit like The Matrix. So I used a little bit of jQuery to toggle the display of two divs through a hefty little time-out.
+                        </p>
+
+                        <p>
+                            What do you think of the outcome?
+                        </p>
+
+                        <div class="typewriter-container">
+                            <div class="wrapper" id="matrix_prompt_1">
+                                    <p class="line typing">Wake up, Arty...</p>
+                                </div>
+
+                                <div class="wrapper" id="matrix_prompt_3">
+                                        <p class="line_2 typing_2">The Matrix has you...</p>
+                                </div>
+                        </div>
+
+                        <p>
+                            And of course, the whole thing is pretty much hack and slash code. I will leave it as is though because prettifying it would take me another 30-60m and I would rather spend that on more productive activities since this is just a "quick" test.
+                        </p>
+
+                        <p>
+                            The video tutorial I am following here can be found <a href="https://www.youtube.com/watch?v=CkOab-pT2Gk">here</a>.
+                        </p>
+
+                    </article>
+
+                </div><!-- /.blog-post -->
+    
+            </div><!-- /.blog-main -->
+    
+        </div><!-- /.row -->
+    
+</div><!-- /.container -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script>
+var matrix_prompt_1 = $('#matrix_prompt_1');
+var matrix_prompt_3 = $('#matrix_prompt_3');
+
+matrix_prompt_3.hide();
+
+setTimeout( function(){ 
+    // Do something after 1 second
+    // src: https://stackoverflow.com/questions/8216394/how-to-make-a-jquery-function-call-after-x-seconds
+    matrix_prompt_1.hide();
+    matrix_prompt_3.show();
+  }  , 5000 );
+
+</script>
+</body>
+</html>
