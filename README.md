@@ -8,6 +8,6 @@ For your convenience, to use this repository copy/run the following:
 
 ## Markdown Editing Resources
 
- - https://stackedit.io/app#
+ - https://stackedit.io/app
  - https://guides.github.com/features/mastering-markdown
- - https://en.support.wordpress.com/markdown-quick-reference/
+ - https://en.support.wordpress.com/markdown-quick-reference
