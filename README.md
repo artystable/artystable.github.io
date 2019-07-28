@@ -8,4 +8,4 @@ For your convenience, to use this repository copy/run the following:
 
 ---
 
-Markdown editing resources can be found [here](https://artystable.github.io).
+Markdown editing resources can be found **[here](https://github.com/artystable/artystable.github.io/blob/master/misc/markdown-editing-resources.md)**.
