@@ -396,6 +396,7 @@ Below you can find a Codepen with the JavaScript code that makes the auto-hide n
         // Set main variables.
         var mainHeader = document.getElementsByClassName('cd-auto-hide-header')[0];
         var belowNavHeroContent = document.getElementsByClassName('sub-nav-hero')[0];
+	var menuToggleButton = document.getElementById('#cd-navigation');
 
         // Set scrolling variables.
         var scrolling = false,
@@ -405,7 +406,7 @@ Below you can find a Codepen with the JavaScript code that makes the auto-hide n
             scrollOffset = 150;
 
         // Toggle mobile menu accordion.
-        mainHeader.addEventListener('click', function(event){
+        menuToggleButton.addEventListener('click', function(event){
             event.preventDefault();
             mainHeader.classList.toggle('nav-open');
         });
