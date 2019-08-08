@@ -6,15 +6,16 @@ You are reading the README.md file for Arty's GitHub Pages website.
 ###   :key: Resources
 For your convenience, to use this repository copy/run the following:
 
-"`git clone https://github.com/artystable/artystable.github.io.git`"
+`git clone https://github.com/artystable/artystable.github.io.git`
+<br/>
 
 [Visit Public Site URL](https://artystable.github.io)
 
 [Access Markdown Editing Resources](https://github.com/artystable/artystable.github.io/blob/master/misc/markdown-editing-resources.md)
 
 
-
 ***
+<br/>
 
 ###   :dart: Currently Defined Objectives
 
@@ -27,27 +28,26 @@ For your convenience, to use this repository copy/run the following:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :small_orange_diamond: List online social community links of current interest.
 
-
-
 ***
+<br/>
 
 ### :put_litter_in_its_place: Renounced Objectives
-<br>
+<br/>
 
 :x: *~~Begin implementating steps for World Domination.~~* &nbsp;&nbsp; :innocent:
 
 
 
 ***
+<br/>
 
 ### :thought_balloon: Miscellaneous Thoughts & Ideas
-<br>
+<br/>
 
 :bulb: Consider creating small organizational resource for software (and other, i.e. analytical, miscellaneous fun, etc.) collaborative projects.
 
-
-
 ***
+<br/>
 
 <blockquote align="center" font-style="italic">
 "End? No, the journey doesn't end here. Death is just another path.
