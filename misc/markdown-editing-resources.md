@@ -1,4 +1,4 @@
-# artystable.github.io
+# [artystable.github.io](https://github.com/artystable/artystable.github.io)
 
 # Markdown Editing Resources
 
@@ -18,9 +18,16 @@
 
 ## Used Resources
 
-**Block Quote**
+**Code Blocks**
 
-<span>``</span> <a href="#" valign="bottom"><img src="https://github.githubassets.com/images/icons/emoji/unicode/27a1.png" width="20px" valign="bottom"></a> `block quote`
+<span>``</span> &nbsp;&nbsp;&nbsp;&nbsp; <a href="#" valign="bottom"><img src="https://github.githubassets.com/images/icons/emoji/unicode/27a1.png" width="20px" valign="bottom"></a> &nbsp;&nbsp; `single block quote`
+
+<span>``````</span> &nbsp;&nbsp;&nbsp;&nbsp; <a href="#" valign="bottom"><img src="https://github.githubassets.com/images/icons/emoji/unicode/2b07.png" width="20px" valign="bottom"></a>
+```
+multiple
+block
+quote
+```
 
 
 **Link/Images**
@@ -33,10 +40,14 @@
 <a href="#"><img src="http://octodex.github.com/images/dojocat.jpg" width="20px" valign="bottom"/><a>
 <a href="#"><img src="https://github.com/favicon.ico" width="20px" valign="bottom"/><a>
 
+**Plain Indentation**
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This will appear with six space characters in front of it.
+
 
 ## Other Resources
 
-**To-Done List**
+**Task List**
 
 - [x] this is a complete item
 - [ ] this is an incomplete item
@@ -48,6 +59,35 @@ First Header | Second Header
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
 
-**Plain Indentation**
+**Markdown Comments**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This will appear with six space characters in front of it.
+<!--
+    this is a an html comment.
+    the bad part of this is that it will appear in
+    any document you generate from this markdown, such as if
+    you convert this markdown to HTML with MacDown or Pandoc.
+-->
+```
+<!--
+    this is a an html comment.
+    the bad part of this is that it will appear in
+    any document you generate from this markdown, such as if
+    you convert this markdown to HTML with MacDown or Pandoc.
+-->
+```
+
+**Expandable Text**
+
+<details>
+<summary>"Click here to test expandable section."</summary>
+Surprise, surprise!
+</details>
+
+<a href="#" valign="bottom"><img src="https://github.githubassets.com/images/icons/emoji/unicode/2b07.png" width="20px" valign="bottom"></a>
+
+```
+<details>
+<summary>"Click here to test expandable section."</summary>
+Surprise, surprise!
+</details>
+```
