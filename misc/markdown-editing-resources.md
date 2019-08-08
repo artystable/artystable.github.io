@@ -1,4 +1,4 @@
-# [artystable.github.io](https://github.com/artystable/artystable.github.io)
+# [Repository Root](https://github.com/artystable/artystable.github.io)
 
 # Markdown Editing Resources
 
@@ -15,6 +15,12 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#" valign="bottom"><img src="https://github.githubassets.com/images/icons/emoji/unicode/2693.png" width="20px" valign="bottom"></a> &nbsp; [Github Emoji URLs](https://api.github.com/emojis)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#" valign="bottom"><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f60e.png" width="20px" valign="bottom"></a> &nbsp; [Advanced Markdown by DavidWells](https://github.com/DavidWells/advanced-markdown/blob/master/README.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#" valign="bottom"><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f3a8.png" width="20px" valign="bottom"></a> &nbsp; [Markdown Creator](https://daringfireball.net/projects/markdown/)
+
+** Miscellaneous Links**
+[Github Pages Markdown Sanitazion Filter + Pipelines](https://github.com/jch/html-pipeline/blob/master/lib/html/pipeline/sanitization_filter.rb#L44-L48)
+
 
 ## Used Resources
 
