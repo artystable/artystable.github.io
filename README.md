@@ -18,6 +18,18 @@ For your convenience, to use this repository copy/run the following:
 ***
 <br/>
 
+###   :fire: Top 3 Recent Accomplishments
+
+
+:white_check_mark: *Become a Github Pages Markdown Ninja.*
+
+:white_check_mark: *Added Google Analytics & tested loading partials from via JavaScript.*
+
+:ballot_box_with_check: *Added Google Analytics & tested loading partials from via JavaScript.*
+
+***
+<br/>
+
 ###   :dart: Currently Defined Objectives
 
 
@@ -28,6 +40,15 @@ For your convenience, to use this repository copy/run the following:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :small_orange_diamond: Replace grid style with flex.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :small_orange_diamond: List online social community links of current interest.
+
+***
+<br/>
+
+###     :monkey_face: Random Accomplishments
+
+:ballot_box_with_check: *Added Google Analytics & tested loading partials from via JavaScript.*
+
+:ballot_box_with_check: *Learned about GitHub analytics.*
 
 ***
 <br/>
