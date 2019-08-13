@@ -19,7 +19,7 @@ For your convenience, to use this repository copy/run the following:
 <br/>
 
 ###   :fire: Top 3 Recent Accomplishments
-
+<br/>
 
 :white_check_mark: *Become a Github Pages Markdown Ninja.*
 
@@ -45,8 +45,9 @@ For your convenience, to use this repository copy/run the following:
 <br/>
 
 ###     :monkey_face: Random Accomplishments
+<br/>
 
-:ballot_box_with_check: *Added Google Analytics & tested loading partials from via JavaScript.*
+:ballot_box_with_check: *Added Google Analytics & tested loading partials via JavaScript.*
 
 :ballot_box_with_check: *Learned about GitHub analytics.*
 
