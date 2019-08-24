@@ -57,7 +57,7 @@ For your convenience, to use this repository copy/run the following:
 ### :put_litter_in_its_place: Renounced Objectives
 <br/>
 
-:x: *~~Begin implementating steps for World Domination.~~* &nbsp;&nbsp; :innocent:
+:x: *~~Begin implementing steps for World Domination.~~* &nbsp;&nbsp; :innocent:
 
 
 
