@@ -23,18 +23,69 @@ function loadPartialScriptToHead(script_obj) {
 }
 //loadPartialScriptToHead();
 
-// Used to test if loadPartialScriptToHead() works as expected.
-function loadPartialGetFireBug() {
+function loadFingerprint() {
 
     var script = {src:'', type:''};
-            script.src = 'https://getfirebug.com/firebug-lite.js';
+            script.src = '/vnd/fingerprint/fingerprint.min.js';
             script.type = 'text/javascript';
 
     loadPartialScriptToHead(script);
 
     return false;
 }
-//loadPartialGetFireBug();
+
+// Loads cookieless Google Analytics.
+function loadCookielessGoogleAnalytics() {
+
+    var script = {src:'', type:''};
+            script.src = '/js/as-ganalytics.js';
+            script.type = 'text/javascript';
+
+    loadPartialScriptToHead(script);
+
+    return false;
+}
+//loadCookielessGoogleAnalytics();
+
+// Loads all partials scripts.
+function loadPartials() {
+    //loadGoogleAnalytics01();// removed temporarily to evaluate cookieless alternative for web traffic analytics.
+    //loadGoogleAnalytics02();// removed temporarily to evaluate cookieless alternative for web traffic analytics.
+    loadFingerprint();
+    loadCookielessGoogleAnalytics();
+}
+loadPartials();
+
+/********************* End Main Script Logic *********************/
+
+
+
+
+
+/**
+ * TESTS
+ */
+
+// Used to test if loadPartialScriptToHead() works as expected.
+function loadPartialGetTestScript() {
+
+    var script = {src:'', type:''};
+            script.src = 'https://getfirebug.com/firebug-lite.js'; // Test script "firebug" is just convenient to use for testing.
+            script.type = 'text/javascript';
+
+    loadPartialScriptToHead(script);
+
+    return false;
+}
+//loadPartialGetTestScript();
+
+
+
+
+
+/**
+ * SANDBOX:
+ */
 
 // Loads required Google Analytics script 1.
 function loadGoogleAnalytics01() {
@@ -62,10 +113,3 @@ function loadGoogleAnalytics02() {
     return false;
 }
 //loadGoogleAnalytics02();
-
-// Runs all scripts for partials.
-function loadPartials() {
-    loadGoogleAnalytics01();
-    loadGoogleAnalytics02();
-}
-loadPartials();
