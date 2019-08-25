@@ -34,6 +34,7 @@ function loadFingerprint() {
 
     return false;
 }
+loadFingerprint();
 
 // Loads Google Analytics script - #1 (i.e. Loads the gtag.js library & establishes GA_MEASUREMENT_ID).
 function loadGoogleAnalytics01() {
@@ -47,7 +48,7 @@ function loadGoogleAnalytics01() {
 
     return false;
 }
-//loadGoogleAnalytics01();
+loadGoogleAnalytics01();
 
 // Loads Google Analytics script - #2 (sends a pageview hit to Google Analytics).
 function loadCookielessGoogleAnalytics() {
@@ -60,7 +61,7 @@ function loadCookielessGoogleAnalytics() {
 
     return false;
 }
-//loadCookielessGoogleAnalytics();
+loadCookielessGoogleAnalytics();
 
 /********************* End Main Script Logic *********************/
 
@@ -107,15 +108,4 @@ function loadGoogleAnalytics02() {
     return false;
 }
 //loadGoogleAnalytics02();
-*/
-
-/*
-// Loads all partials scripts.
-function loadPartials() {
-    //loadGoogleAnalytics01();
-    //loadGoogleAnalytics02();
-    //loadFingerprint();
-    //loadCookielessGoogleAnalytics();
-}
-//loadPartials();
 */
