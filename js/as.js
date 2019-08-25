@@ -23,6 +23,7 @@ function loadPartialScriptToHead(script_obj) {
 }
 //loadPartialScriptToHead();
 
+// Uses fingerprinting algorithm to create an anonymous user profile.
 function loadFingerprint() {
 
     var script = {src:'', type:''};
@@ -34,60 +35,7 @@ function loadFingerprint() {
     return false;
 }
 
-// Loads cookieless Google Analytics.
-function loadCookielessGoogleAnalytics() {
-
-    var script = {src:'', type:''};
-            script.src = '/js/as-ganalytics.js';
-            script.type = 'text/javascript';
-
-    loadPartialScriptToHead(script);
-
-    return false;
-}
-//loadCookielessGoogleAnalytics();
-
-// Loads all partials scripts.
-function loadPartials() {
-    //loadGoogleAnalytics01();// removed temporarily to evaluate cookieless alternative for web traffic analytics.
-    //loadGoogleAnalytics02();// removed temporarily to evaluate cookieless alternative for web traffic analytics.
-    loadFingerprint();
-    loadCookielessGoogleAnalytics();
-}
-loadPartials();
-
-/********************* End Main Script Logic *********************/
-
-
-
-
-
-/**
- * TESTS
- */
-
-// Used to test if loadPartialScriptToHead() works as expected.
-function loadPartialGetTestScript() {
-
-    var script = {src:'', type:''};
-            script.src = 'https://getfirebug.com/firebug-lite.js'; // Test script "firebug" is just convenient to use for testing.
-            script.type = 'text/javascript';
-
-    loadPartialScriptToHead(script);
-
-    return false;
-}
-//loadPartialGetTestScript();
-
-
-
-
-
-/**
- * SANDBOX:
- */
-
-// Loads required Google Analytics script 1.
+// Loads Google Analytics script - #1 (i.e. Loads the gtag.js library & establishes GA_MEASUREMENT_ID).
 function loadGoogleAnalytics01() {
 
     var script = {src:'', type:''};
@@ -101,6 +49,52 @@ function loadGoogleAnalytics01() {
 }
 //loadGoogleAnalytics01();
 
+// Loads Google Analytics script - #2 (sends a pageview hit to Google Analytics).
+function loadCookielessGoogleAnalytics() {
+
+    var script = {src:'', type:''};
+            script.src = '/js/as-ganalytics.js';
+            script.type = 'text/javascript';
+
+    loadPartialScriptToHead(script);
+
+    return false;
+}
+//loadCookielessGoogleAnalytics();
+
+/********************* End Main Script Logic *********************/
+
+
+
+
+
+/**
+ * TESTS
+**/
+
+/* 
+// Used to test if loadPartialScriptToHead() works as expected.
+function loadPartialGetTestScript() {
+
+    var script = {src:'', type:''};
+            script.src = 'https://getfirebug.com/firebug-lite.js'; // Test script "firebug" is just convenient to use for testing.
+            script.type = 'text/javascript';
+
+    loadPartialScriptToHead(script);
+
+    return false;
+}
+//loadPartialGetTestScript();
+*/
+
+
+
+
+/**
+ * SANDBOX:
+**/
+
+/* 
 // Loads required Google Analytics script 1.
 function loadGoogleAnalytics02() {
 
@@ -113,3 +107,15 @@ function loadGoogleAnalytics02() {
     return false;
 }
 //loadGoogleAnalytics02();
+*/
+
+/*
+// Loads all partials scripts.
+function loadPartials() {
+    //loadGoogleAnalytics01();
+    //loadGoogleAnalytics02();
+    //loadFingerprint();
+    //loadCookielessGoogleAnalytics();
+}
+//loadPartials();
+*/
