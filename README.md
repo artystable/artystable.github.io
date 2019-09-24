@@ -25,19 +25,14 @@ For your convenience, to use this repository copy/run the following:
 
 :ballot_box_with_check: *Added Google Analytics & tested loading partials from via JavaScript.*
 
-:white_check_mark: *Define new objectives* &nbsp;&nbsp; :thought_balloon:
+:white_check_mark: *Improved landing page.* &nbsp;&nbsp; :house_with_garden:
 
 ***
 <br/>
 
 ###   :dart: Currently Defined Objectives
 
-
-:white_check_mark: *Become a Github Pages Markdown Ninja.* &nbsp;&nbsp; :sunglasses:
-
-:white_large_square: *Improve landing page.* &nbsp;&nbsp; :sweat_smile:
-
-:white_check_mark: *Define new objectives* &nbsp;&nbsp; :thought_balloon:
+:white_large_square: *Define new objectives.* &nbsp;&nbsp; :thought_balloon:
 
 ***
 <br/>
