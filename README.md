@@ -12,7 +12,7 @@ For your convenience, to use this repository copy/run the following:
 
 [Visit Public Site URL](https://artystable.github.io)
 
-[Access Markdown Editing Resources](https://github.com/artystable/artystable.github.io/blob/master/misc/markdown-editing-resources.md)
+[Access Markdown Editing Resources](https://github.com/artystable/artystable.github.io/blob/master/site_old/misc/markdown-editing-resources.md)
 
 
 ***
@@ -21,11 +21,11 @@ For your convenience, to use this repository copy/run the following:
 ###   :fire: Top 3 Recent Accomplishments
 <br/>
 
-:white_check_mark: *Become a Github Pages Markdown Ninja.*
-
 :white_check_mark: *Added Google Analytics & tested loading partials from via JavaScript.*
 
 :ballot_box_with_check: *Added Google Analytics & tested loading partials from via JavaScript.*
+
+:white_check_mark: *Define new objectives* &nbsp;&nbsp; :thought_balloon:
 
 ***
 <br/>
@@ -33,13 +33,11 @@ For your convenience, to use this repository copy/run the following:
 ###   :dart: Currently Defined Objectives
 
 
-:white_check_mark: *Become a Github Pages Markdown Ninja.* &nbsp;&nbsp; <a href="#"><img src="https://artystable.github.io/img/git-ninja.png" width="32px"></a>
+:white_check_mark: *Become a Github Pages Markdown Ninja.* &nbsp;&nbsp; :sunglasses:
 
 :white_large_square: *Improve landing page.* &nbsp;&nbsp; :sweat_smile:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :small_orange_diamond: Replace grid style with flex.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :small_orange_diamond: List online social community links of current interest.
+:white_check_mark: *Define new objectives* &nbsp;&nbsp; :thought_balloon:
 
 ***
 <br/>
