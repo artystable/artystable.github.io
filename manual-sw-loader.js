@@ -1,9 +1,24 @@
 
+/* 
 if('serviceWorker' in navigator) {
   navigator.serviceWorker
            .register('/sw.js')
-           .then(function() { console.log("Service Worker Registered"); });
+           .then(function() { console.log("Manual Service Worker Registered"); });
 }
+ */
+
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js')
+      .then(registration => {
+        console.log(`Service Worker registered! Scope: ${registration.scope}`);
+      })
+      .catch(err => {
+        console.log(`Service Worker registration failed: ${err}`);
+      });
+  });
+}
+
 
 /*
 if ('serviceWorker' in navigator) {
