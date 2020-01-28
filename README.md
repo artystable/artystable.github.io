@@ -33,7 +33,7 @@ For your convenience, to use this repository copy/run the following:
 ###   :dart: Currently Defined Objectives
 
 
-:white_check_mark: *Become a Github Pages Markdown Ninja.* &nbsp;&nbsp; <a href="#"><img src="https://artystable.github.io/img/git-ninja.png" width="32px"></a>
+:white_check_mark: *Become a Github Pages Markdown Ninja.* &nbsp;&nbsp;
 
 :white_large_square: *Improve landing page.* &nbsp;&nbsp; :sweat_smile:
 
@@ -76,5 +76,5 @@ For your convenience, to use this repository copy/run the following:
 "End? No, the journey doesn't end here. Death is just another path.
 One that we all must take."
 <br>
-- J.R.R. Tolkien
+- Gandalf
 </blockquot>
