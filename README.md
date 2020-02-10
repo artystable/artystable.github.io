@@ -20,6 +20,8 @@ For your convenience, to use this repository copy/run the following:
 
 :white_check_mark: Improve projects section with Material Design React component.
 
+:white_check_mark: Added CICD Pipeline project card.
+
 ***
 <br/>
 
