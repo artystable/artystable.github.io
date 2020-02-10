@@ -58,6 +58,7 @@ For your convenience, to use this repository copy/run the following:
 :ballot_box_with_check: *Learned about GitHub analytics.*
 
 ***
+<br/>
 
 ### :put_litter_in_its_place: Renounced Objectives
 <br/>
