@@ -1,6 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /privacy
-Disallow: /legal
-Sitemap: https://artystable.github.io/sitemap.xml
-Host: https://artystable.github.io
