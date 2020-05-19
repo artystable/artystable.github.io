@@ -7,7 +7,7 @@
 # The below line is responsible for enforcing that files/directories are untracked by default.
 *
 
-# The below line enables for direcories to be tracked if specificified for tracking.
+# The below line enables for directories to be tracked.
 !*/
 
 ### **Directories to ignore:**
@@ -33,36 +33,56 @@
 
 ### **Directories to track:**
 
-# Thie below line is for guidance only. Remove as desired.
-#!*/tracked-directory-example/
+### This below lines are for guidance only. Remove as desired.
+### Track this directory alone.
+!tracked-directory-example/
+### Track files within relevant directory.
+!tracked-directory-example/**
 
-# track this directory alone.
+### Track files within relevant directory.
 !blog/*
-# !*/blog/.html
+### track all the files within this (`blog`) directory.
+### Track all the files within this (`blog`) directory.
+!blog/**
 
+!css/*
+!css/**
+!js/*
+!js/**
+!page/*
+!page/**
+!pic/*
+!pic/**
+!tool/*
+!tool/**
 
-# !css/
-# !js/
-# !page/
-# !pic/
-# !tool/
-
-# !*/blog/
-
-
-#---
+---
 
 ## Resources
 
 ### `.gitignore` https://www.atlassian.com/git/tutorials/saving-changes/gitignore
 
+### https://git-scm.com/docs/gitignore#_pattern_format
+
 ### https://stackoverflow.com/questions/987142/make-gitignore-ignore-everything-except-a-few-files
 
 ### https://stackoverflow.com/questions/11451535/gitignore-is-ignored-by-git
 
+### [Gitignore Explained: What is Gitignore and How to Add it to Your Repo](https://www.freecodecamp.org/news/gitignore-what-is-it-and-how-to-add-to-repo/)
+###
+### [github/gitignore: A collection of useful .gitignore templates](https://github.com/github/gitignore)
+###
+### [Ignoring files - GitHub Help](https://help.github.com/en/github/using-git/ignoring-files)
+###
+### [Git - gitignore Documentation](https://git-scm.com/docs/gitignore)
+###
+### [How to Use a .gitignore File | Pluralsight](https://www.pluralsight.com/guides/how-to-use-gitignore-file)
+###
+### [Ignoring Files and Directories in Git (.gitignore) | Linuxize](https://linuxize.com/post/gitignore-ignoring-files-in-git/)
+
 ## Notes
 
-### `.gitignore` files are particularly strict concerning leadng and trailing spaces. Always check if your rule has any undesired spaces.
+### `.gitignore` files are particularly strict concerning lead and trailing spaces. Always check if your rule has any undesired spaces.
 # git rm -r --cached . && git add . && git commit -m "fixed untracked files"
 
 #---
