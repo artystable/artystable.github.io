@@ -111,18 +111,7 @@ img {
   height: auto;
 }
  */
-figure {
-  margin: 0 auto;
-}
-.img-responsive {
-  width: 100%;
-  height: auto;
-}
-/* max-width: 700px; */
 
-.arty-blog-post-img-caption {
-  color: #aaaaaa;
-}
 
 .elevator {
   display: flex;
@@ -260,7 +249,7 @@ footer {
     /* max-width: 68vw; */
   }
   .arty-blog-post-img-caption {
-    font-size: 0.9em;
+    font-size: 0.65em;
   }
   .elevator {
     /* max-width: 65vw; */

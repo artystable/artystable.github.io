@@ -51,3 +51,16 @@
   min-width: 100px;
 }
 
+figure {
+  margin: 0 auto;
+}
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+/* max-width: 700px; */
+
+.arty-blog-post-img-caption {
+  color: #aaaaaa;
+  font-size: 0.5rem;
+}

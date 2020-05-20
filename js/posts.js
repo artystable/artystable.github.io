@@ -3,8 +3,8 @@
 
 let listArticles = [
   {
-    title: "A fresh start!",
-    url: "../blog/200404-fresh-start.html",
+    title: "Simple website blog post",
+    url: "../blog/200404-simple-website-blog-post.html",
     timestamp: "1586275419",
     author: "Arty Stable",
   },
